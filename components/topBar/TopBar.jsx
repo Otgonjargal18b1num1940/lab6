@@ -17,7 +17,7 @@ class TopBar extends React.Component {
   axios.get('http://localhost:3000/test/info')
   .then(response => response.data)
   .then(data => this.setState({ infoo: data }));
-
+  
 }
   render() {
     var name=0;
@@ -45,7 +45,7 @@ class TopBar extends React.Component {
       <AppBar className="cs142-topbar-appBar" position="absolute">
         <Toolbar>
           <Typography variant="h5" color="inherit">
-     Version: {this.state.infoo.__v}
+     Option: {this.state.infoo.__v}
           </Typography>
           <div className="ner" >
           <Typography variant="h5"   color="inherit">
