@@ -1,15 +1,12 @@
-.det{
+.User{
 color: blue ;
 }
-.usName tr td {
-    color:blue;
+.userName tr td {
+    color:#090c0f;
     font-size: 35px;
-    font-family: tahoma;
+    font-family: "Papyrus" ,fantasy;;
     padding: 20px;
-
-
-
 }
-.kaka{
+.s_font{
     font-size: 35px;
 }
