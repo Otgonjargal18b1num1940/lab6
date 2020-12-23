@@ -32,9 +32,9 @@ class UserList extends React.Component {
     return (
       <div >
            {this.state.listt.map(pa=><p key={pa}>
-            <List className= "xaxa"component="nav">
+            <List className= "name"component="nav">
             <ListItem  button component={Link}  to = {"/users/"+pa._id}  >
-            <ListItemText className="keke"  primary={pa.first_name+" "+pa.last_name}   />               
+            <ListItemText className="list"  primary={pa.first_name+" "+pa.last_name}   />               
           </ListItem>
           <Divider />
         </List>
