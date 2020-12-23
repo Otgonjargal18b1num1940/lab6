@@ -26,14 +26,14 @@ class UserDetail extends React.Component {
   render() {
     this.bb(); 
         var per = this.state.listt;
-        //alert("dada");
+        //alert("hmm");
         return (
-       <div className="det">
+       <div className="User">
           <Typography variant="body1">
            <Link to={"/photos/"+this.props.match.params.userId}>
             <Button variant="contained" color="violet" > Photos </Button>
            </Link>
-           <Typography className="usName">
+           <Typography className="userName">
             
            <tr><td>FirstName: </td>
                <td>{per.first_name}</td></tr>
