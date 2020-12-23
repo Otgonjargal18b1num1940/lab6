@@ -13,7 +13,7 @@ import './userList.css';
 import axios from 'axios';
 
 /**
- * Define UserList, a React componment of CS142 project #5
+ * Define UserList, a React componment of CS142 project #6
  */
 class UserList extends React.Component {
   constructor(props) {
@@ -31,10 +31,10 @@ class UserList extends React.Component {
   render() {
     return (
       <div >
-           {this.state.listt.map(Ul=><p key={Ul}>
+           {this.state.listt.map(pa=><p key={pa}>
             <List className= "name"component="nav">
-            <ListItem  button component={Link}  to = {"/users/"+Ul._id}  >
-            <ListItemText className="list"  primary={Ul.first_name+" "+Ul.last_name}   />               
+            <ListItem  button component={Link}  to = {"/users/"+pa._id}  >
+            <ListItemText className="list"  primary={pa.first_name+" "+pa.last_name}   />               
           </ListItem>
           <Divider />
         </List>
