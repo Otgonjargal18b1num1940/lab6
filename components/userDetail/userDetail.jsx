@@ -34,8 +34,7 @@ class UserDetail extends React.Component {
             <Button variant="contained" color="violet" > Photos </Button>
            </Link>
            <Typography className="userName">
-            
-           <tr><td>FirstName: </td>
+               <tr><td>FirstName: </td>
                <td>{per.first_name}</td></tr>
                <tr><td>LastName: </td>
                <td>{per.last_name}</td></tr>
